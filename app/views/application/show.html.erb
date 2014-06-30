@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Your form</h3>
+        </div>
+        <div class="panel-body">
+          <div>
+            <h4 <%= @user.username %></h4> 
+            <strong>email: <%= @user.email %></strong>
+            
+            <strong> <%= @user.caption %> </strong>
+            
+            <h4> why arent you laughing  <video src="<%= @user.url %>" alt=""> </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
